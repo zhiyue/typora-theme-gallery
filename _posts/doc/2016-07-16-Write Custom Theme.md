@@ -8,7 +8,7 @@ typora-root-url: ../../
 
 ## Translations
 
-[繁體中文](https://pjchender.github.io/2018/04/24/note-%E5%A6%82%E4%BD%95%E7%82%BA-typora-%E6%92%B0%E5%AF%AB%E5%AE%A2%E8%A3%BD%E5%8C%96%E6%A8%A3%E5%BC%8F/)
+[简体中文](/doc/zh/Write-Custom-Theme/), [繁體中文](https://pjchender.dev/app/note-typora-custom-theme/), [日本語](/doc/ja/Write-Custom-Theme/)
 
 ## Update -- CSS Variables
 
@@ -69,8 +69,9 @@ If you want to write a custom CSS theme for Typora, all you need to do is:
 
 1. File naming rule for theme css: Do not use capitalized letters, and please replace whitespace with `-`, and Typora will convert them to readable label in menu item. For example, for `my-first-typora-theme.css`, Typora will put an menu item "My First Typora Theme" under "Themes" menu.
 2. Put default font size into `html`, then for elements like `h1` or `p`, use `rem` for their `font-size` property, or else custom font size in preference panel will not work.
-3. Typora is created upon Webkit (on macOS) or Chromium (on Windows/Linux), so please use css properties supported by Chrome or Safari (aka Webkit).
-4. Some modifications of CSS may cause Typora not to work as expected, for example, adding `white-space: pre-wrap;` to selector `#write` will make  `\t` cannot be inserted by pressing Tab key, so please overwrite default css styles as less as possible, test it out.
+3. Use tag as selectors if possible. For example, for `### heading 3`, use `h3` instead of `h3.md-header`, because for any markdown render, "### heading 3" will be converted to `h3` tag. And for typora, we will keep as less html attributes (including class) as possible just like other markdown convertors. You could limit `h3` in writing area by `#write h3` selector. 
+4. Typora is created upon Webkit (on macOS) or Chromium (on Windows/Linux), so please use css properties supported by Chrome or Safari (aka Webkit).
+5. Some modifications of CSS may cause Typora not to work as expected, for example, adding `white-space: pre-wrap;` to selector `#write` will make  `\t` cannot be inserted by pressing Tab key, so please overwrite default css styles as less as possible, test it out.
 
 ---
 
@@ -106,7 +107,7 @@ html {
 #write {
   max-width: 90%; /*adjust size of the wriring area*/
   font-size: 1rem; /*basic font size*/
-  font-color: #555; /*basic font color*/
+  color: #555; /*basic font color*/
   ...
 }
 ```
@@ -308,11 +309,11 @@ Please make a pull request to [typora-wiki-site](https://github.com/typora/wiki-
 
 
 [CodeMirror]: http://codemirror.net
-[Custom Font]: http://support.typora.io/Custom-Font/
-[focus mode]: http://support.typora.io/Change-Styles-in-Focus-Mode/
-[Code-Block-Styles]: http://support.typora.io/Code-Block-Styles
+[custom-font]: https://support.typora.io/Custom-Font/
+[focus mode]: https://support.typora.io/Change-Styles-in-Focus-Mode/
+[Code-Block-Styles]: https://support.typora.io/Code-Block-Styles
 [MathJax]: http://www.mathjax.org
-[background]: http://support.typora.io/Backgound/
+[background]: https://support.typora.io/Backgound/
 
 [install-theme]: /doc/Install-Theme/
 [typora-theme-gallery]: https://github.com/typora/typora-theme-gallery
