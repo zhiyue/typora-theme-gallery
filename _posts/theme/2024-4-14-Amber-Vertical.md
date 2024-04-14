@@ -12,7 +12,7 @@ typora-copy-images-to: ../../media/theme/amber
 
 # amber-vertical-typora-theme
 
-![heading](Readme/heading.png)
+![heading](../../media/theme/amber/heading.png)
 
 ## Background
 
