@@ -36,6 +36,29 @@ Unzip the package and copy
 
 to the Typora Theme folder.
 
+## Copyright and Re-creation
+```
+* Copyright (c) 2024 Michael Law, Haitang Studio  
+* All rights reserved.
+
+* It was originally released on 2024-04-13.  
+*  
+* Licensed under the MIT License.
+* You may obtain a copy of the License at:  
+* https://opensource.org/licenses/MIT
+```
+  
+Amber is intended to function as a "basic" template. We welcome minor or major Re-creations based on Amber.
+
+Acknowledge **Amber** and **Haitang Studio** in your work, and **star** https://github.com/MichaelLaw2003/amber-vertical-typora-theme are appreciated.
+
+(〃'▽'〃)
+
+_琥珀_希望成为一个“基础的”模板。我们欢迎基于琥珀的再创作。
+
+期待您在您的作品中提及_琥珀_和_Haitang Studio_，并赠予https://github.com/MichaelLaw2003/amber-vertical-typora-theme 一颗星星。
+
+(〃'▽'〃)
 
 ## Introduction
 
