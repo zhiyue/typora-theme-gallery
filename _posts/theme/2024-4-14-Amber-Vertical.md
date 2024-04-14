@@ -5,7 +5,7 @@ category: theme
 homepage: https://github.com/MichaelLaw2003/amber-vertical-typora-theme/tree/main
 download: https://github.com/MichaelLaw2003/amber-vertical-typora-theme/archive/refs/heads/main.zip
 author: MichaelLaw_HaitangStudio
-thumbnail: amber.png
+thumbnail: Amber.png
 typora-root-url: ../../
 typora-copy-images-to: ../../media/theme/amber
 ---
