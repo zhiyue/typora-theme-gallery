@@ -98,6 +98,7 @@ _琥珀_希望成为一个“基础的”模板。我们欢迎基于琥珀的再
 ![Example3](../../media/theme/amber/Example3.png)
 
 ## Known Problems and TODO
+
 1. 回鹘蒙古文和满文等可能显示异常
 2. 勾选框可能显示异常
 3. This theme is compatible with Japanese and Korean, but lacks special fonts and other styles.
