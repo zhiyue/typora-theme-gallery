@@ -2,7 +2,7 @@
 layout: theme
 title: OneLight
 category: theme
-homepage: https://github.com/caolib/theme.typora.io
+homepage: https://github.com/caolib/theme.typora.io/blob/gh-pages/_posts/theme/2024-4-15-OneLight.md
 download: https://github.com/caolib/theme.typora.io
 author: caolib
 thumbnail: onelight.png
