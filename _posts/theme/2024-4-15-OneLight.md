@@ -18,6 +18,8 @@ typora-root-url: ../../
 
 > [!tip]
 > 如果要自行修改，建议在同一个目录下创建`onelight.user.css`文件，将你自己的样式放在这个文件中
+>
+> **这里有两篇文章使用one-light主题，可点击查看主题详细效果展示** [markdown](https://htmlpreview.github.io/?https://github.com/caolib/note/blob/master/markdown.html) [mybatis-plus](https://htmlpreview.github.io/?https://github.com/caolib/note/blob/master/mybatis-plus.html)
 
 ![](/media/thumbnails/onelight.png)
 
