@@ -28,6 +28,8 @@ Dog's Choice 是一款 Typora 主题。Dog's Choice，狗子的选择，狗子�
 
 ## 主题预览
 
+> 目前已推出远山绿、极地蓝、七彩虹等多个配色方案，此处仅展示远山绿配色，其余配色可前往主页查看。
+
 ### 远山绿配色
 
 ![远山绿配色1](/media/theme/dogschoice/yuanshangreen1.png)
