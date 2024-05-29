@@ -2,7 +2,7 @@
 layout: theme
 title: Keepstyle
 category: theme
-homepage: https://github.com/KSMLC/TyporaThemeKeepStyle
+homepage: https://demo.ksmlc.cn/TyporaThemeKeepStyle/
 download: https://github.com/KSMLC/TyporaThemeKeepStyle/releases/tag/KeepStyle
 author: KS-MLC
 thumbnail: keepstyle.png
@@ -22,17 +22,23 @@ typora-root-url: ../../
 
 后续主题更新优化或许会与图片有所差距。具体更新日志请前往[Release Typora-KeepStyle主题 · KSMLC/TyporaThemeKeepStyle (github.com)](https://github.com/KSMLC/TyporaThemeKeepStyle/releases/tag/KeepStyle)查看
 
+## 在线预览
+
+[keepstyle（暗色主题）](https://demo.ksmlc.cn/TyporaThemeKeepStyle/index.html)
+
+[keepstyle_bright（亮色主题）](https://demo.ksmlc.cn/TyporaThemeKeepStyle/index1.html)
+
 ## 预览图
 
-<img src="https://raw.githubusercontent.com/KSMLC/PhotoGallery/main/image/2024/05/29/22_52_30.png" alt="image" />
+<img src="https://demo.ksmlc.cn/TyporaThemeKeepStyle/image/keepstyle.png" alt="image" />
 
 ## keepstyle（暗色主题）
 
-<img src="https://raw.githubusercontent.com/KSMLC/PhotoGallery/main/image/2024/05/29/22_51_55.png" alt="image" />
+<img src="https://demo.ksmlc.cn/TyporaThemeKeepStyle/image/keepstyle_dark.png" alt="image" />
 
 ## keepstyle_bright（亮色主题）
 
-<img src="https://raw.githubusercontent.com/KSMLC/PhotoGallery/main/image/2024/05/29/22_52_13.png" alt="image" />
+<img src="https://demo.ksmlc.cn/TyporaThemeKeepStyle/image/keepstyle_bright.png" alt="image" />
 
 ## 下载
 
