@@ -2,15 +2,14 @@
 layout: theme
 title: OneLight
 category: theme
-homepage: https://github.com/caolib/theme.typora.io
-download: https://github.com/caolib/theme.typora.io/releases
+homepage: https://github.com/caolib/typora-onelight-theme/tree/onelight
+download: https://github.com/caolib/typora-onelight-theme/releases
 author: caolib
 thumbnail: onelight-2.png
 typora-root-url: ../../
 ---
 
-# [One Light](https://github.com/caolib/theme.typora.io)
-
+# [OneLight Theme](https://github.com/caolib/typora-onelight-theme/tree/onelight)
 
 
 > 一个简洁的浅色主题，**[下载地址](https://github.com/caolib/theme.typora.io/releases)**
