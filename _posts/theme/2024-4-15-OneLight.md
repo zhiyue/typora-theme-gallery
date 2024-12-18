@@ -2,31 +2,72 @@
 layout: theme
 title: OneLight
 category: theme
-homepage: https://github.com/caolib/typora-onelight-theme/tree/onelight
+homepage: https://github.com/caolib/typora-onelight-theme
 download: https://github.com/caolib/typora-onelight-theme/releases
 author: caolib
-thumbnail: onelight-2.png
+thumbnail: onelight.png
 typora-root-url: ../../
 ---
 
-# [OneLight](https://github.com/caolib/typora-onelight-theme/tree/onelight)
+<h1 align='center'>OneLight Theme For Typora</h1>
 
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/caolib/typora-onelight-theme/total?labelColor=white&color=blue)
-[![GitHub Release](https://img.shields.io/github/v/release/caolib/one-light-theme?labelColor=blue&color=red)](https://github.com/caolib/typora-onelight-theme/releases)
-[![GitHub last commit](https://img.shields.io/github/last-commit/caolib/typora-onelight-theme?labelColor=white&color=blue)](https://github.com/caolib/typora-onelight-theme/activity)
-[⬇️![](https://img.shields.io/badge/点击下载最新-white)](https://github.com/caolib/typora-onelight-theme/releases/latest/download/onelight.zip)
+  <p align="center">
+    <a>简体中文</a>
+    |
+    <a href="./README_en.md">English</a>
+  </p>
+  
 ---
 
-
-> ### **这里有两篇文章使用onelight主题，可点击查看主题详细效果展示**
+> **这里有两篇文章使用one-light主题，可点击查看主题详细效果展示**
+>
+> - **[onelight](https://bin-sites.pages.dev/onelight)**
 > - **[计算机网络](https://bin-sites.pages.dev/net/计算机网络)**
-> - **[mybatis-plus](https://bin-sites.pages.dev/mp)**
 
 ---
-> **快速使用**：在typora中选择 文件 → 偏好设置 → 外观 → 打开主题文件夹 → 将下载的2个css文件都粘贴到这个目录然后重新启动typora，在主题一栏就能切换了
->  
-> 如果要自行修改，建议修改`onelight.user.css`文件，将你自己的样式放在这个文件中
 
-![](https://s2.loli.net/2024/09/05/AMX2dquwQBDECk3.png)
+![](https://s2.loli.net/2024/12/15/8owUutvPmiQxCWI.png)
 
-![](https://s2.loli.net/2024/09/05/RVQpzvDcf9iE5Y6.png)
+![image](https://s2.loli.net/2024/12/15/8yOnx3Kkj2htecp.png)
+
+**1.如何使用**
+
+- 下载css文件到本地（推荐）
+  - 下载css文件
+  - 在typora中选择 文件 → 偏好设置 → 外观 → 打开主题文件夹
+  - 将下载的2个css文件都粘贴到这个目录然后重新启动typora，点击主题就能切换了
+
+- 你也可以选择从网络导入
+
+  - 在typora主题文件夹下创建一个css文件（名字随意，比如onelight.css）
+
+  - 加入这两行
+
+    ```css
+    @import url('https://cdn.jsdelivr.net/gh/caolib/one-light-theme@main/onelight.css');
+    @import url('https://cdn.jsdelivr.net/gh/caolib/one-light-theme@main/onelight.user.css');
+    ```
+
+  - 重启typora切换主题
+
+
+> - 从网络导入可以实时获取主题的最新更改，缺点是每次打开都需要加载一会才行
+> - 如果要自行修改，建议修改`onelight.user.css`文件，将你自己的样式放在这个文件中
+> - 如果想获取最新可以clone本仓库使用git更新或者从网络导入，主题的css文件都在右侧[Release](https://github.com/caolib/theme.typora.io/releases)中，如果喜欢onelight的话不妨点颗⭐获取后续更新，欢迎[提问](https://github.com/caolib/typora-onelight-theme/issues)和PR👏
+
+---
+
+**2.关于字体**
+
+在`onelight.user.css`和`onelight.css`2个文件开头设置了默认字体，可以自行修改
+![](https://github.com/user-attachments/assets/ab75260f-cff0-43b7-b8e5-dfea38e8525c)
+
+**因为从网络导入字体文件太慢了，有时候甚至会失败(国内网络)，如果要使用主题中的字体，建议下载字体安装**
+
+---
+
+**3.关于背景图片**
+
+> 只要将背景图片放在css文件同一个文件夹就可以显示了，文件名为`bg.gif`,你可以在`onelight.user.css`中搜索这个文件名并替换成任何你想显示的其他图片
+>
+> <img src="https://s2.loli.net/2024/12/15/Fn6LcrKWC2dlp1J.gif" alt="recording" style="zoom: 50%;" />
