@@ -21,6 +21,8 @@ A lightweight screenplay theme for Typora, intended for creating treatments than
 - Second header with block quote creates the actual dialogue content(with reverse indent)
 - Horizontal Rule creates a page break for printing(for titles or similar)
 
+> Designed & Tested on MacOS, Not fully tested, but should work for Windows/Linux.
+
 ## Installation
 
 1. [Download](https://github.com/pranavgn/Typora-Screenplay-Theme) the zipped project package from Github.
