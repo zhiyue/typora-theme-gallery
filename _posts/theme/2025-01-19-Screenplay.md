@@ -6,9 +6,9 @@ homepage: https://github.com/pranavgn/Typora-Screenplay-Theme
 download: https://github.com/pranavgn/Typora-Screenplay-Theme
 built-in: false
 author: pranav nair
-thumbnail: compact.png
+thumbnail: screenplay.png
 typora-root-url: ../../
-typora-copy-images-to: ../../media/theme/compact
+typora-copy-images-to: ../../media/theme/screenplay
 ---
 
 # Typora-Screenplay-Theme
